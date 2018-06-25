@@ -55,7 +55,7 @@ class LoginViewController: UIViewController {
         let session = URLSession.shared
         
         let request = NSMutableURLRequest(url: url!)
-        request.httpMethod = "POST"
+        request.httpMethod = "GET"
         
         let paramToSend = "username=" + username + "&password=" + psw
         request.httpBody = paramToSend.data(using: String.Encoding.utf8)

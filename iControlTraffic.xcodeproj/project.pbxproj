@@ -15,9 +15,11 @@
 		4B062E8420D89BF9006E6D0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B062E8220D89BF9006E6D0F /* LaunchScreen.storyboard */; };
 		4B062EA520D89D2D006E6D0F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B062EA420D89D2D006E6D0F /* MapKit.framework */; };
 		4B062EA820D8A5E9006E6D0F /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B062EA720D8A5E9006E6D0F /* Onboarding.storyboard */; };
-		4B062EAE20D8D332006E6D0F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B062EAD20D8D332006E6D0F /* HomeViewController.swift */; };
+		4B062EAE20D8D332006E6D0F /* ProyectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B062EAD20D8D332006E6D0F /* ProyectsViewController.swift */; };
 		4B062EB020D8D49D006E6D0F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B062EAF20D8D49D006E6D0F /* WelcomeViewController.swift */; };
 		4BD5E13220E06A340066BDA5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD5E13120E06A340066BDA5 /* LoginViewController.swift */; };
+		4BD5E13620E0C6CB0066BDA5 /* AccountantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD5E13520E0C6CB0066BDA5 /* AccountantViewController.swift */; };
+		4BD5E13820E0CCF20066BDA5 /* ShowLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD5E13720E0CCF20066BDA5 /* ShowLocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +33,11 @@
 		4B062E8520D89BF9006E6D0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B062EA420D89D2D006E6D0F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		4B062EA720D8A5E9006E6D0F /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
-		4B062EAD20D8D332006E6D0F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4B062EAD20D8D332006E6D0F /* ProyectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectsViewController.swift; sourceTree = "<group>"; };
 		4B062EAF20D8D49D006E6D0F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		4BD5E13120E06A340066BDA5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4BD5E13520E0C6CB0066BDA5 /* AccountantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountantViewController.swift; sourceTree = "<group>"; };
+		4BD5E13720E0CCF20066BDA5 /* ShowLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowLocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +96,11 @@
 		4B062EA620D89D47006E6D0F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				4B062EAD20D8D332006E6D0F /* HomeViewController.swift */,
+				4B062EAD20D8D332006E6D0F /* ProyectsViewController.swift */,
 				4B062EAF20D8D49D006E6D0F /* WelcomeViewController.swift */,
 				4BD5E13120E06A340066BDA5 /* LoginViewController.swift */,
+				4BD5E13520E0C6CB0066BDA5 /* AccountantViewController.swift */,
+				4BD5E13720E0CCF20066BDA5 /* ShowLocationViewController.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -171,12 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BD5E13820E0CCF20066BDA5 /* ShowLocationViewController.swift in Sources */,
+				4BD5E13620E0C6CB0066BDA5 /* AccountantViewController.swift in Sources */,
 				4BD5E13220E06A340066BDA5 /* LoginViewController.swift in Sources */,
 				4B062E7F20D89BF8006E6D0F /* iControlTraffic.xcdatamodeld in Sources */,
 				4B062EB020D8D49D006E6D0F /* WelcomeViewController.swift in Sources */,
 				4B062E7920D89BF8006E6D0F /* ViewController.swift in Sources */,
 				4B062E7720D89BF8006E6D0F /* AppDelegate.swift in Sources */,
-				4B062EAE20D8D332006E6D0F /* HomeViewController.swift in Sources */,
+				4B062EAE20D8D332006E6D0F /* ProyectsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

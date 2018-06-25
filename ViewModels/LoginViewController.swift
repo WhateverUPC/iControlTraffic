@@ -51,7 +51,7 @@ class LoginViewController: UIViewController {
     
     func DoLogin(_ username:String, _ psw:String)
     {
-        let url = URL(string: "http://206.189.196.39/controltraffic/api/users/login?username=caghp&password=123456")
+        let url = URL(string: "http://206.189.196.39/controltraffic/api/users/login")
         let session = URLSession.shared
         
         let request = NSMutableURLRequest(url: url!)
